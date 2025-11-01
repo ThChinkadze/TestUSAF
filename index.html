@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Тест USAF</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Тест USAF</h1>
+<p class="description">Для успешного прохождения теста необходимо правильно ответить на все вопросы</p>
+
+<div id="userForm">
+  <h2>Введите ваши данные</h2>
+  <label>Имя:
+    <input type="text" id="gameName" placeholder="Ваше имя" required>
+  </label>
+  <label>Фамилия:
+    <input type="text" id="lastName" placeholder="Ваша фамилия" required>
+  </label>
+  <button id="startTestBtn">Начать тест</button>
+</div>
+
+<form id="quizForm" style="display:none;"></form>
+<button id="submitBtn" style="display:none;">Проверить ответы</button>
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

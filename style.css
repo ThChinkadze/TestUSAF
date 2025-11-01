@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f4f6f8;
+  color: #222;
+}
+
+h1, h2 { text-align: center; }
+p.description { text-align: center; font-size: 16px; margin-bottom: 30px; color: #555; }
+
+.question {
+  background: #fff;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.question p { font-weight: bold; margin-bottom: 10px; }
+
+.options label { display: block; margin: 5px 0; cursor: pointer; padding: 3px 5px; border-radius: 4px; }
+
+.correct { background-color: #d4edda; border: 1px solid #28a745; }
+.incorrect { background-color: #f8d7da; border: 1px solid #dc3545; }
+.error { border: 2px solid red; background-color: #ffe6e6; }
+
+input[type=text] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #4a90e2;
+  color: #fff;
+  transition: background 0.3s;
+  margin: 20px auto 0;
+  display: block;
+}
+button:hover { background: #357ab8; }
+
+#result { font-weight: bold; margin-top: 20px; text-align: center; font-size: 18px; }
+.success { font-weight: bold; font-size: 20px; margin-top: 10px; }
+
+#userForm {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin-bottom: 30px;
+}
+#userForm label { font-weight: bold; font-size: 15px; display:block; margin-bottom:10px; }
